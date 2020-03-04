@@ -75,4 +75,4 @@ colnames(mean_grouped)[3:length(names(mean_grouped))]<-
 
 Code for reading the output into R:
 
-read.table('./step5_output.txt', check.names = FALSE)      
+read.table('./step5_output.txt', check.names = FALSE)
