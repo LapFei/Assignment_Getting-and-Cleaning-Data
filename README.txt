@@ -75,4 +75,5 @@ colnames(mean_grouped)[3:length(names(mean_grouped))]<-
 
 Code for reading the output into R:
 
-read.table('./step5_output.txt', check.names = FALSE)
+output <- url('https://raw.githubusercontent.com/LapFei/Assignment_getting-and-cleaning-data/master/step5_output.txt')
+output <- read.table(output, check.names = FALSE)
